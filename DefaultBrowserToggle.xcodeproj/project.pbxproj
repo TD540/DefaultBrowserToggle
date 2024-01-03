@@ -22,6 +22,7 @@
 		E91D1B192B449AEC007A07FB /* DefaultBrowserHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultBrowserHandler.m; sourceTree = "<group>"; };
 		E91D1B1B2B449B41007A07FB /* DefaultBrowserHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultBrowserHandler.h; sourceTree = "<group>"; };
 		E91D1B1E2B44CD96007A07FB /* MenuBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarButton.swift; sourceTree = "<group>"; };
+		E94B3D202B44E92000E525F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		E91D1B082B449A52007A07FB /* DefaultBrowserToggle */ = {
 			isa = PBXGroup;
 			children = (
+				E94B3D202B44E92000E525F7 /* Info.plist */,
 				E91D1B092B449A52007A07FB /* DefaultBrowserToggleApp.swift */,
 				E91D1B1E2B44CD96007A07FB /* MenuBarButton.swift */,
 				E91D1B192B449AEC007A07FB /* DefaultBrowserHandler.m */,
@@ -276,6 +278,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DefaultBrowserToggle/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +311,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DefaultBrowserToggle/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
